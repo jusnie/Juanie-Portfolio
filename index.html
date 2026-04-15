@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Juanie Cuenca | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <!-- floating orbs layer -->
+    <div class="hero-orbs"></div>
+
+    <div class="hero-inner">
+      <nav class="top-nav">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects-list">Work</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#certificate">Achievements</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="hero-content">
+        <div class="hero-text">
+          <p class="badge reveal-up">Portfolio · Philippines</p>
+
+          <h1 class="reveal-up">
+            Juanie Cuenca
+          </h1>
+
+          <p class="subtitle reveal-up">
+            Developer since 2023, Modder and Cracker Freelance Students who uses ai as tools and debugging.
+          </p>
+
+          <div class="hero-meta reveal-fade">
+            <span id="ph-time">Philippines Time: --:--:--</span>
+          </div>
+        </div>
+
+        <div class="hero-side">
+          <div class="hero-profile reveal-up">
+            <img src="me-front.jpg" alt="Juanie Cuenca" class="profile-pic" id="profile-pic" />
+          </div>
+
+          <button id="theme-toggle" class="theme-toggle reveal-fade" aria-label="Toggle theme">
+            <span class="theme-icon theme-icon-sun" aria-hidden="true">☀️</span>
+            <span class="theme-icon theme-icon-moon" aria-hidden="true">🌙</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- About -->
+    <section class="section about reveal-up" id="about">
+      <div class="section-header">
+        <h2>About</h2>
+        <p class="section-kicker">Who I am and what I do.</p>
+      </div>
+      <p>
+        I am a developer, modder, cracker based in Valenzuela City, Philippines, building sharp, minimal
+        interfaces with HTML, CSS, and JavaScript. I enjoy clean layouts, subtle
+        animations, and simple user experiences.
+      </p>
+    </section>
+
+    <!-- Experience (card with expand) -->
+    <section class="section experience reveal-up" id="projects">
+      <div class="section-header">
+        <h2>Experience</h2>
+        <p class="section-kicker">Where I’ve applied my skills.</p>
+      </div>
+
+      <div class="experience-card">
+        <div class="experience-card-header">
+          <h3>Highlights</h3>
+          <!-- Icon button instead of text -->
+          <button
+            id="exp-toggle-btn"
+            class="exp-toggle-btn"
+            type="button"
+            aria-label="Toggle experience list"
+          >
+            <span class="gg-chevron-double-down"></span>
+          </button>
+        </div>
+
+        <ul class="experience-list">
+          <!-- only this one is visible by default -->
+          <li>Developed AI and sold in US Developers</li>
+
+          <!-- all of these are hidden until expanded -->
+          <li class="exp-extra">Make automatic trash can using Arduino</li>
+          <li class="exp-extra">Hold Demo School Website</li>
+          <li class="exp-extra">Developed Game for our School Exhibit</li>
+          <li class="exp-extra">Service Crew in Jollibee</li>
+          <li class="exp-extra">Modder and Developer on Android</li>
+          <li class="exp-extra">Co-Dev in Netflix Clone</li>
+          <li class="exp-extra">Developer and Contributor on SimpMusic</li>
+          <li class="exp-extra">Finish Lego Robotics Course</li>
+          <li class="exp-extra">Finish Sony Animation Course</li>
+          <li class="exp-extra">Finish JDVP TVL Tesda Animation Course</li>
+          <li class="exp-extra">Perform Well in Work Immersion</li>
+          <li class="exp-extra">Install OS and Optimize School PCs</li>
+          <li class="exp-extra">School Technician</li>
+          <li class="exp-extra">Fixing Phone and Repair</li>
+          <li class="exp-extra">Install Software and License Activation</li>
+          <li class="exp-extra">Perform Basic Troubleshooting</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section skills reveal-up" id="skills">
+      <div class="section-header">
+        <h2>Skills</h2>
+        <p class="section-kicker">Tools I use to create.</p>
+      </div>
+
+      <div class="skills-grid">
+        <!-- Existing tools -->
+        <div class="skill-pill reveal-up">
+          <div class="skill-icon">
+            <img src="photoshop.png" alt="Photoshop" />
+          </div>
+          <span>Photoshop</span>
+        </div>
+
+        <div class="skill-pill reveal-up">
+          <div class="skill-icon">
+            <img src="illustrator.png" alt="Illustrator" />
+          </div>
+          <span>Illustrator</span>
+        </div>
+
+        <div class="skill-pill reveal-up">
+          <div class="skill-icon">
+            <img src="animate.png" alt="Animate" />
+          </div>
+          <span>Animate</span>
+        </div>
+
+        <div class="skill-pill reveal-up">
+          <div class="skill-icon">
+            <img src="canva.png" alt="Canva" />
+          </div>
+          <span>Canva</span>
+        </div>
+
+<!-- Web dev -->
+<div class="skill-pill reveal-up">
+  <div class="skill-icon">
+    <img src="html.png" alt="HTML" />
+  </div>
+  <span>HTML</span>
+</div>
+
+<div class="skill-pill reveal-up">
+  <div class="skill-icon">
+    <img src="css.png" alt="CSS" />
+  </div>
+  <span>CSS</span>
+</div>
+
+<div class="skill-pill reveal-up">
+  <div class="skill-icon">
+    <img src="js.png" alt="JavaScript" />
+  </div>
+  <span>JavaScript</span>
+</div>
+
+<div class="skill-pill reveal-up">
+  <div class="skill-icon">
+    <img src="ts.png" alt="TypeScript" />
+  </div>
+  <span>TypeScript</span>
+</div>
+
+<div class="skill-pill reveal-up">
+  <div class="skill-icon">
+    <img src="unity.png" alt="Unity Engine" />
+  </div>
+  <span>Unity Engine</span>
+</div>
+
+<!-- Video & design -->
+<div class="skill-pill reveal-up">
+  <div class="skill-icon">
+    <img src="aftereffects.png" alt="After Effects" />
+  </div>
+  <span>After Effects</span>
+</div>
+
+<div class="skill-pill reveal-up">
+  <div class="skill-icon">
+    <img src="panzoid.png" alt="Panzoid" />
+  </div>
+  <span>Panzoid</span>
+</div>
+
+<div class="skill-pill reveal-up">
+  <div class="skill-icon">
+    <img src="m365.png" alt="Microsoft 365" />
+  </div>
+  <span>Microsoft 365</span>
+</div>
+
+<div class="skill-pill reveal-up">
+  <div class="skill-icon">
+    <img src="filemanager.png" alt="File Manager+" />
+  </div>
+  <span>File Manager+</span>
+</div>
+
+<div class="skill-pill reveal-up">
+  <div class="skill-icon">
+    <img src="java.png" alt="Java" />
+  </div>
+  <span>Java</span>
+</div>
+
+<div class="skill-pill reveal-up">
+  <div class="skill-icon">
+    <img src="termux.png" alt="Termux" />
+  </div>
+  <span>Termux</span>
+</div>
+
+<div class="skill-pill reveal-up">
+  <div class="skill-icon">
+    <img src="alightmotion.png" alt="Alight Motion" />
+  </div>
+  <span>Alight Motion</span>
+</div>
+
+<div class="skill-pill reveal-up">
+  <div class="skill-icon">
+    <img src="linux.png" alt="Linux" />
+  </div>
+  <span>Linux</span>
+</div>
+
+<div class="skill-pill reveal-up">
+  <div class="skill-icon">
+    <img src="arduino.png" alt="Arduino" />
+  </div>
+  <span>Arduino</span>
+</div>
+
+<!-- Dev & hosting -->
+<div class="skill-pill reveal-up">
+  <div class="skill-icon">
+    <img src="github.png" alt="GitHub" />
+  </div>
+  <span>GitHub</span>
+</div>
+
+<div class="skill-pill reveal-up">
+  <div class="skill-icon">
+    <img src="netlify.png" alt="Netlify" />
+  </div>
+  <span>Netlify</span>
+</div>
+
+<div class="skill-pill reveal-up">
+  <div class="skill-icon">
+    <img src="vercel.png" alt="Vercel" />
+  </div>
+  <span>Vercel</span>
+</div>
+
+<div class="skill-pill reveal-up">
+  <div class="skill-icon">
+    <img src="firebase.png" alt="Firebase" />
+  </div>
+  <span>Firebase</span>
+</div>
+
+<div class="skill-pill reveal-up">
+  <div class="skill-icon">
+    <img src="blender.png" alt="Blender" />
+  </div>
+  <span>Blender</span>
+</div>
+
+<div class="skill-pill reveal-up">
+  <div class="skill-icon">
+    <img src="capcut.png" alt="CapCut" />
+  </div>
+  <span>CapCut</span>
+</div>
+
+<!-- AI & coding assistants -->
+<div class="skill-pill reveal-up">
+  <div class="skill-icon">
+    <img src="cursor-ai.png" alt="Cursor AI" />
+  </div>
+  <span>Cursor AI</span>
+</div>
+
+<div class="skill-pill reveal-up">
+  <div class="skill-icon">
+    <img src="vscode.png" alt="Visual Studio" />
+  </div>
+  <span>Visual Studio</span>
+</div>
+
+<div class="skill-pill reveal-up">
+  <div class="skill-icon">
+    <img src="perplexity.png" alt="Perplexity" />
+  </div>
+  <span>Perplexity</span>
+</div>
+
+<div class="skill-pill reveal-up">
+  <div class="skill-icon">
+    <img src="chatgpt.png" alt="ChatGPT" />
+  </div>
+  <span>ChatGPT</span>
+</div>
+
+<div class="skill-pill reveal-up">
+  <div class="skill-icon">
+    <img src="claude.png" alt="Claude" />
+  </div>
+  <span>Claude</span>
+</div>
+
+<div class="skill-pill reveal-up">
+  <div class="skill-icon">
+    <img src="gemini.png" alt="Gemini" />
+  </div>
+  <span>Gemini</span>
+</div>
+
+<div class="skill-pill reveal-up">
+  <div class="skill-icon">
+    <img src="nemotron.png" alt="Nemotron" />
+  </div>
+  <span>Nemotron</span>
+</div>
+</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Achievements -->
+    <section class="section certificate reveal-up" id="certificate">
+      <div class="section-header">
+        <h2>Achievements</h2>
+        <p class="section-kicker">Certificates and milestones I’ve completed.</p>
+      </div>
+
+      <div class="achievement-list">
+        <!-- 1: Sony Animation Certificate -->
+        <div class="achievement-item reveal-left">
+          <div class="achievement-text">
+            <h3>Sony Animation Certificate</h3>
+            <p>Completed Sony Animation training, focusing on storytelling, animation principles, and production basics.</p>
+          </div>
+          <a
+            href="Juanie-Animation.pdf"
+            class="btn-download btn-download-small"
+            download="Sony-Animation-Certificate-Juanie.pdf"
+          >
+            Download
+          </a>
+        </div>
+
+        <!-- 2: NCII Animation -->
+        <div class="achievement-item reveal-left">
+          <div class="achievement-text">
+            <h3>NCII Animation</h3>
+            <p>Earned NCII Animation certification, covering industry-standard animation workflows and competencies.</p>
+          </div>
+          <a
+            href="Juanie-NCII.pdf"
+            class="btn-download btn-download-small"
+            download="NCII-Animation-Certificate-Juanie.pdf"
+          >
+            Download
+          </a>
+        </div>
+
+        <!-- 3: LEGO Educational Robotics & Computer Technical Training -->
+        <div class="achievement-item reveal-left">
+          <div class="achievement-text">
+            <h3>LEGO Educational Robotics &amp; Computer Technical Training</h3>
+            <p>Finished LEGO robotics and computer technical training, building and programming robots with problem-solving tasks.</p>
+          </div>
+          <a
+            href="Juanie-Robotics.pdf"
+            class="btn-download btn-download-small"
+            download="Lego-Robotics-Computer-Technical-Training-Juanie.pdf"
+          >
+            Download
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects list under Achievements -->
+    <section class="section projects-list reveal-up" id="projects-list">
+      <div class="section-header">
+        <h2>Projects</h2>
+        <p class="section-kicker">Things I’ve built and shipped.</p>
+      </div>
+
+      <div class="projects-list-wrapper">
+        <!-- Project 1: DudeBro -->
+        <article class="project-card-image-only reveal-up">
+          <a
+            href="https://diguifi.itch.io/dudes-quest"
+            class="project-image-link"
+            target="_blank"
+            rel="noopener"
+          >
+            <div class="project-image-inner">
+              <img src="dudebro.jpg" alt="DudeBro project preview">
+              <div class="project-image-overlay"></div>
+
+              <div class="project-image-footer">
+                <span class="project-image-title">DudeBro</span>
+                <span class="project-image-visit">
+                  <span class="gg-arrow-top-right"></span>
+                </span>
+              </div>
+            </div>
+          </a>
+        </article>
+
+        <!-- Project 2: Another Project (SimpMusic) -->
+        <article class="project-card-image-only reveal-up">
+          <a
+            href="https://www.simpmusic.org/"
+            class="project-image-link"
+            target="_blank"
+            rel="noopener"
+          >
+            <div class="project-image-inner">
+              <img src="SimpMusic.jpg" alt="Another Project preview">
+              <div class="project-image-overlay"></div>
+
+              <div class="project-image-footer">
+                <span class="project-image-title">Another Project</span>
+                <span class="project-image-visit">
+                  <span class="gg-arrow-top-right"></span>
+                </span>
+              </div>
+            </div>
+          </a>
+        </article>
+
+        <!-- Project 3: Vega App -->
+        <article class="project-card-image-only reveal-up">
+          <a
+            href="https://vegaapp.vercel.app/"
+            class="project-image-link"
+            target="_blank"
+            rel="noopener"
+          >
+            <div class="project-image-inner">
+              <img src="vega-app.jpg" alt="Vega App preview">
+              <div class="project-image-overlay"></div>
+
+              <div class="project-image-footer">
+                <span class="project-image-title">Vega App</span>
+                <span class="project-image-visit">
+                  <span class="gg-arrow-top-right"></span>
+                </span>
+              </div>
+            </div>
+          </a>
+        </article>
+
+        <!-- Project 4: Yasuda.dev -->
+        <article class="project-card-image-only reveal-up">
+          <a
+            href="https://jusnie.github.io/Yasuda-Web-File-s-/"
+            class="project-image-link"
+            target="_blank"
+            rel="noopener"
+          >
+            <div class="project-image-inner">
+              <img src="yasuda-dev.jpg" alt="Yasuda.dev preview">
+              <div class="project-image-overlay"></div>
+
+              <div class="project-image-footer">
+                <span class="project-image-title">Yasuda.dev</span>
+                <span class="project-image-visit">
+                  <span class="gg-arrow-top-right"></span>
+                </span>
+              </div>
+            </div>
+          </a>
+        </article>
+
+        <!-- Project 5: Netmirror -->
+        <article class="project-card-image-only reveal-up">
+          <a
+            href="https://netmirror.gg/2/en"
+            class="project-image-link"
+            target="_blank"
+            rel="noopener"
+          >
+            <div class="project-image-inner">
+              <img src="netmirror.jpg" alt="Netmirror preview">
+              <div class="project-image-overlay"></div>
+
+              <div class="project-image-footer">
+                <span class="project-image-title">Netmirror</span>
+                <span class="project-image-visit">
+                  <span class="gg-arrow-top-right"></span>
+                </span>
+              </div>
+            </div>
+          </a>
+        </article>
+
+        <!-- Project 6: Veoaifree -->
+        <article class="project-card-image-only reveal-up">
+          <a
+            href="https://veoaifree.com/"
+            class="project-image-link"
+            target="_blank"
+            rel="noopener"
+          >
+            <div class="project-image-inner">
+              <img src="veoaifree.jpg" alt="Veoaifree preview">
+              <div class="project-image-overlay"></div>
+
+              <div class="project-image-footer">
+                <span class="project-image-title">Veoaifree</span>
+                <span class="project-image-visit">
+                  <span class="gg-arrow-top-right"></span>
+                </span>
+              </div>
+            </div>
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact reveal-up" id="contact">
+      <div class="section-header">
+        <h2>Contact</h2>
+        <p class="section-kicker">Let’s work on something together.</p>
+      </div>
+
+      <!-- Email row with logo/button -->
+      <p>
+        Email:
+        <a href="mailto:juaniecuenca07@gmail.com">juaniecuenca07@gmail.com</a>
+        <!-- email icon button (opens Gmail compose) -->
+        <a
+          href="mailto:juaniecuenca07@gmail.com"
+          class="btn-download btn-download-small"
+          aria-label="Email Juanie"
+        >📩
+          
+        </a>
+      </p>
+
+      <p>
+        <span class="location-label">
+          <span class="location-pin">📍</span>
+          Valenzuela City, Philippines
+        </span>
+      </p>
+
+      <!-- Formspree contact form -->
+      <form
+        action="https://formspree.io/f/mlgarjdd"
+        method="POST"
+        class="contact-form"
+      >
+        <div class="form-row">
+          <label>
+            Name
+            <input type="text" name="name" required>
+          </label>
+        </div>
+
+        <div class="form-row">
+          <label>
+            Email
+            <input type="email" name="email" required>
+          </label>
+        </div>
+
+        <div class="form-row">
+          <label>
+            Message
+            <textarea name="message" rows="4" required></textarea>
+          </label>
+        </div>
+
+        <!-- optional subject so Gmail shows a nice title -->
+        <input type="hidden" name="_subject" value="New message from your portfolio">
+
+        <button type="submit" class="btn-download btn-download-small" id="contact-submit">
+          <span class="btn-icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+              viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="icon icon-tabler icon-tabler-send-2">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M4.698 4.034l16.302 7.966l-16.302 7.966a.503 .503 0 0 1 -.546 -.124a.555 .555 0 0 1 -.12 -.568l2.468 -7.274l-2.468 -7.274a.555 .555 0 0 1 .12 -.568a.503 .503 0 0 1 .546 -.124" />
+              <path d="M6.5 12h14.5" />
+            </svg>
+          </span>
+          <span class="btn-label">Send</span>
+          <span class="btn-spinner" aria-hidden="true"></span>
+        </button>
+      </form>
+    </section>
+  </main>
+<footer class="footer">
+  <div class="social-icons">
+    <a href="https://github.com/jusnie" target="_blank">
+      <img src="Images/githublogo.png" alt="GitHub" />
+    </a>
+    <a href="https://www.instagram.com/fw.wani_?igsh=MXJrZjJ5MXVoZTU3MA==" target="_blank">
+      <img src="Images/instagramlogo.png" alt="Instagram" />
+    </a>
+    <a href="https://www.linkedin.com/in/juanie-cuenca-b9184b38b?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">
+      <img src="Images/linkedinlogo.png" alt="LinkedIn" />
+    </a>
+  </div>
+
+  <p>&copy; 2026 Juanie Cuenca · Portfolio</p>
+</footer>
+  <!-- Main JS -->
+  <script src="script.js"></script>
+</body>
+</html>
